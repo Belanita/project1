@@ -6,7 +6,9 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-      <Judul/>
+      <Judul title = "BIODATA"/>
+       <Judul title = "LOGIN"/>
+        <Judul title = "NAMBAH"/>
         <Text style={styles.welcome}>Nama: Belanita Aniawati Ardani </Text>
         <Text style={styles.instructions}>Kelas: XI_RPL 3 </Text>
         <Text style={styles.instructions}>No Absen: 11</Text>
